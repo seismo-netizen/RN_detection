@@ -264,8 +264,6 @@ set(gca,'FontSize',15)
 
 % results
 figure(3)
-tt1 = 950;
-tt2 = 1150;
 t = 1:nn*Fs*win_len; t = t * delta;
 pos1 = [0.1 0.74 0.85 0.16];
 pos2 = [0.1 0.58 0.85 0.16];
@@ -277,7 +275,6 @@ subplot('Position',pos1)
 plot(t,tar_wvfm,'b'); hold on;
 set(gca,'xticklabel',[])
 xlim([0 t(end)])
-%xlim([tt1 tt2])
 
 sig_idx = sort(RN_I5);
 sig = []; t_sig = [];
