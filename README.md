@@ -33,7 +33,5 @@ RN_det_2_clst.m:
    Matlab script reads in RN_Xcorr.mat and classifies the waveform segments into
    RN, NRN, and the mixture.
 
-Fig_1_spectra.png        
-Fig_2_classification.png 
-Fig_3_results.png: 
+Fig_1_spectra.png, Fig_2_classification.png, & Fig_3_results.png: 
    Three figures plated by RN_det_2_clst.m
