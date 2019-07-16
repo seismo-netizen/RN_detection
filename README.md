@@ -1,5 +1,5 @@
 # RN_detection
-Classify waveform signals to Random Noise, Not Random Noise and the Mixture of these two
+Classify waveform signals to Random Noise, Not Random Noise and the Mixture of these two.
 
 This project is dedicated to classify continuous waveform in to Random Noise (RN),
 not Random Noise (NRN), and the mixture of these two. 
